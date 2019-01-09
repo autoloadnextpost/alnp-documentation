@@ -41,8 +41,10 @@ If you are translating the documentation, please make sure that you place your t
 
 ### ☑️ Instructions
 
-1. **FORK** this repository first.
+1. Fork the repository on GitHub.
 2. Fetch your forked repository to your computer.
-3. Add or Edit the documentation.
+3. Make the changes to your fork repository.
 4. Commit your changes or additions to your forked repo.
-5. Send a PULL REQUEST to the `master` branch.
+5. Push the changes to your fork and submit a pull request to the `master` branch of the Auto Load Next Post documentation repository.
+
+At this point you're waiting on me to merge your pull request. I'll review all pull requests, and make suggestions and changes if necessary.
