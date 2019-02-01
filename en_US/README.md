@@ -9,6 +9,7 @@ Refer to the manual to see the different sections available as well as helpful r
 1. [Getting started](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/getting-started.md)
 * * [Requirements](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/requirements.md)
 * * [Installation](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/installation.md)
+* * [Upgrading](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/upgrading.md)
 2. [General overview](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/general-overview.md)
 * * [Theme selectors](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/theme-selectors.md)
 * * [Repeater template](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/repeater-template.md)
