@@ -25,3 +25,7 @@ Just as the endpoint was changed for the Ajax request, the repeater template fil
 Old file name: `content-partial.php`
 
 New file name: `content-alnp.php`
+
+---
+
+If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/AutoLoadNextPost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
