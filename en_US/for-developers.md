@@ -6,4 +6,4 @@ Documentation is available for theme or plugin developers that wish to extend Au
 
  * [Action hooks](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/action-hooks.md)
  * [JavaScript triggers](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/javascript-trriggers.md)
- * [Beta testing](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/beta-testing.md)
+ * [Testing](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/testing.md)

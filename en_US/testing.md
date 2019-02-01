@@ -4,7 +4,7 @@
 
 First and foremost, I want to say thank you if you are beta testing or interested in beta testing future releases. Your feedback is important to making Auto Load Next Post better.
 
-You can download the beta tester [here](https://github.com/AutoLoadNextPost/alnp-beta-tester/releases); I would always recommend beta testing in a staging environment.
+You can download the beta tester [here](https://github.com/AutoLoadNextPost/alnp-beta-tester/releases). I would always recommend beta testing in a staging environment.
 
 ## Debugging a White Screen or Error 500
 
@@ -29,6 +29,8 @@ By default your `wp-config.php` file will not have this set so you will need to 
 
 Once you have this added, Auto Load Next Post will load the unminified version of the Javascript on the front end.
 
+
+If you have followed the instructions above to enable `WP_DEBUG`. Auto Load Next Post also allows you to...
 
 ## Debugging Functionality Issues
 
