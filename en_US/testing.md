@@ -1,6 +1,6 @@
 # Auto Load Next Post Documentation
 
-## Before You Beta Test
+## Beta Testing
 
 First and foremost, I want to say thank you if you are beta testing or interested in beta testing future releases. Your feedback is important to making Auto Load Next Post better.
 
