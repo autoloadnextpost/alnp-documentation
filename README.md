@@ -37,7 +37,7 @@ If you would like to help translate the documentation in another language then a
 
 If you would like to help improve the documentation, translate it into another language or simply see a phrase or spelling mistake, then I look forward to your contributions.
 
-If you are translating the documentation, please make sure that you place your translated documentation in a new folder labeled with the correct WordPress locale code for example `fr_FR`.
+If you are translating the documentation, please make sure that you place your translated documentation in a new folder labeled with the correct WordPress locale code. For example create a folder labelled `fr_FR` if you are translating the documentation into French.
 
 ### ☑️ Instructions
 
