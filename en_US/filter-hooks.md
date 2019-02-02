@@ -12,11 +12,11 @@ You have setup your theme selectors, that's great but themes are structured diff
 * The permalinks changing in your browser URL bar.
 * The comment form and comments for each post load.
 
-If any of theme or all happened then the repeater template has not located your theme templates.
+If any of them or all happened then the repeater template has not located your theme templates.
 
-To solve this problem you need to find your theme templates location and apply the filter. This will then allow Auto Load Next Post to find where the theme templates for your content is located.
+To solve this problem you need to find your theme templates location and apply it using this filter. This will then allow Auto Load Next Post to find where the theme templates for your content is located.
 
-In this example, a theme has its template files located at `template-parts/post/` within its theme folder. Simply apply the filter like so to your `functions.php` file of your theme preferably in a child-theme and Auto Load Next Post will know where to look the next time you scroll down.
+In this example, a theme has its template files located at `template-parts/post/` within its theme folder. Simply apply the filter like so to your `functions.php` file of your theme (preferably in a child-theme) and Auto Load Next Post will know where to look the next time you scroll down.
 
 ```php
 function my_template_location() {
