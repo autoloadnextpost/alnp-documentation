@@ -1,8 +1,10 @@
 # Auto Load Next Post Documentation
 
-## Template
+## Filter Hooks
 
-### Filter: `alnp_template_location`
+### Template
+
+#### Filter: `alnp_template_location`
 
 You have setup your theme selectors, that's great but themes are structured differently from one another and there is no way of detecting how that theme is structured so this filter was put in place should you experience any of the following as you scroll down your posts.
 
