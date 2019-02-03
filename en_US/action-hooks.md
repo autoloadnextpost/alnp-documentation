@@ -41,8 +41,6 @@ Similar to the action hook above, this action hook is specific to a post format 
 add_action( 'alnp_load_before_content_post_format_' . $post_format, 'your_function_name' );
 ```
 
-Use this action hook to display content after the content.
-
 #### Action: `alnp_load_after_content`
 
 ```php
