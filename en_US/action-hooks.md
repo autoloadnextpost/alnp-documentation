@@ -6,42 +6,62 @@ Auto Load Next Post enables the ability to add extra content or a feature and on
 
 Within the default repeater template, many have been provided for the query loop and content, both before and after.
 
-To show these action hooks in action, a developer tool is available to show the action hooks in action as you scroll down to view your posts.
+To show these action hooks in action, a [demonstration tool](https://github.com/autoloadnextpost/alnp-action-hooks-demonstration) is available to show the action hooks as you scroll down to view your posts.
 
-> ℹ️ Note: Auto Load Next Post requires to be setup already for the tool to be of use.
+> ℹ️ Note: Auto Load Next Post requires to be setup already for the action hook tool to be of use.
 
 
 ### The Loop
 
-Use this action hook to display content before the loop.
+#### Action: `alnp_load_before_loop`
 
-`add_action( 'alnp_load_before_loop', 'your_function_name' );`
+```php
+add_action( 'alnp_load_before_loop', 'your_function_name' );
+```
 
-Use this action hook to display content after the loop.
+#### Action: `alnp_load_after_loop`
 
-`add_action( 'alnp_load_after_loop', 'your_function_name' );`
+```php
+add_action( 'alnp_load_after_loop', 'your_function_name' );
+```
 
 ### The Content
 
-Use this action hook to display content before the content.
+#### Action: `alnp_load_before_content`
 
-`add_action( 'alnp_load_before_content', 'your_function_name' );`
+```php
+add_action( 'alnp_load_before_content', 'your_function_name' );
+```
 
-Similar to the one above only this action hook is specific to the post format of the loaded post.
+Similar to the action hook above, this action hook is specific to a post format of the loaded post.
 
-`add_action( 'alnp_load_before_content_post_format_' . $post_format, 'your_function_name' );`
+#### Action: `alnp_load_before_content_post_format_' . $post_format`
+
+```php
+add_action( 'alnp_load_before_content_post_format_' . $post_format, 'your_function_name' );
+```
 
 Use this action hook to display content after the content.
 
-`add_action( 'alnp_load_after_content', 'your_function_name' );`
+#### Action: `alnp_load_after_content`
+
+```php
+add_action( 'alnp_load_after_content', 'your_function_name' );
+```
 
 Similar to the action hook above only this action hook is specific to a single post format of the loaded post.
 
-`add_action( 'alnp_load_after_content_post_format_' . $post_format, 'your_function_name' );`
+#### Action: `alnp_load_after_content_post_format_' . $post_format`
 
-Replace `$post_format` with one of the supported formats. See [Post Formats](#) for a list of supported formats that you can use to display content for a specific post format.
+```php
+add_action( 'alnp_load_after_content_post_format_' . $post_format, 'your_function_name' );
+```
+
+> Replace `$post_format` with one of the supported formats. See [post formats](https://codex.wordpress.org/Post_Formats) for a list of supported formats that you can use to display content for a specific post format.
 
 An example of adding content to a specific post format with one of the action hooks.
+
+#### Example
 
 ```php
 function your_function_name(){
