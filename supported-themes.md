@@ -13,6 +13,7 @@ You can also if you want provide a discount code or a link that automatically ap
 | CoBlocks | https://wordpress.org/themes/coblocks/ | - |
 | Make | https://wordpress.org/themes/make/ | - |
 | Storefront | https://wordpress.org/themes/storefront/ | - |
+| Sydney | https://wordpress.org/themes/sydney/ | - |
 | Tabor | https://themebeans.com/themes/tabor/ | [Apply Coupon](https://themebeans.com/checkout?edd_action=add_to_cart&download_id=146310&discount=ALNP) |
 | Twenty Ten | https://wordpress.org/themes/twentyten/ | - |
 | Twenty Eleven | https://wordpress.org/themes/twentyeleven/ | - |
