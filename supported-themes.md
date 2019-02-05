@@ -4,7 +4,7 @@ The themes listed below are themes that work out of the box either supported dir
 
 > ℹ️ FWY: This list does **not** define which themes are supported only. This list is updated with themes that I am aware of being supported.
 
-If you have a theme that you created and added support for Auto Load Next Post, please let me know so that I can add it to the list or [open a new issue](https://github.com/AutoLoadNextPost/alnp-documentation/issues/new) to let me know that way if you have a GitHub account.
+If you have a theme that you created and added support for Auto Load Next Post, please [let me know](https://autoloadnextpost.com/contact/) so that I can add it to the list or [open a new issue](https://github.com/AutoLoadNextPost/alnp-documentation/issues/new) to let me know that way if you have a GitHub account.
 
 You can also if you want provide a discount code or a link that automatically applies your offer to checkout for your theme.
 
