@@ -34,7 +34,7 @@ If any of them or all happened then the repeater template has not located your t
 
 To solve this problem you need to find your theme templates location and apply it using this filter. This will then allow Auto Load Next Post to find where the theme templates for your content is located.
 
-In this example, a theme has its template files located at `template-parts/post/` within its theme folder. Simply apply the filter like so to your `functions.php` file of your theme (if you are not the original theme developer then this would preferable if added to a child-theme) and Auto Load Next Post will know where to look the next time you scroll down.
+In this example, a theme has its template files located at `template-parts/post/` within its theme folder. Simply apply the filter like so to your `functions.php` file of your theme (_if you are not the original theme developer then this would be preferable if added to a child-theme_) and Auto Load Next Post will know where to look the next time you scroll down.
 
 ```php
 function my_template_location() {
