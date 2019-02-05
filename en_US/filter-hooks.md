@@ -12,7 +12,7 @@ Auto Load Next Post will check if the theme (child or parent) has one of it's ow
 
 If you have overriden the repeater template in your theme or plugin but want to store the repeater template elsewhere, this filter allows you to do that.
 
-In this example, the repeater template is located at `templates/alnp/content-alnp.php` within a theme folder. Simply apply the filter like so to your `functions.php` file of your theme (if you are not the original theme developer then this would preferable if added to a child-theme) and Auto Load Next Post will load the repeater template located there.
+In this example, the repeater template is located at `templates/alnp/content-alnp.php` within a theme folder. Simply apply the filter like so to your `functions.php` file of your theme (_if you are not the original theme developer then this would be preferable if added to a child-theme_) and Auto Load Next Post will load the repeater template located there.
 
 
 ```php
