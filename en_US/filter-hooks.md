@@ -2,6 +2,8 @@
 
 ## Filter Hooks
 
+Auto Load Next Post includes filters that can be used to support a theme. These filters are for developers that are familiar with the WordPress hook/filter system.
+
 ### Template
 
 #### Filter: `alnp_template_redirect`
