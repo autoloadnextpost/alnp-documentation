@@ -8,7 +8,7 @@ When you view the settings page of Auto Load Next Post you will be presented wit
 
 Each theme is different so in order for Auto Load Next Post to work, the theme selectors must be set according to the theme you currently have active for each section.
 
-> If you see a notice at the top of the settings page as shown in the screenshot above then can skip setting up Auto Load Next Post. If not then please continue reading this article.
+> If you see a notice at the top of the settings page as shown in the screenshot above then you can skip setting up Auto Load Next Post. If not, please continue reading this article.
 
 The first three selectors are necessary for Auto Load Next Post to work. The first is the content container, the primary container where the post content is loaded in. This is where the next posts will load as the viewer scrolls down reading your content.
 
@@ -89,11 +89,11 @@ For more information, visit the [repeater template](https://github.com/autoloadn
 
 ## For theme developers
 
-If you are a developer submitting your WordPress theme to the WordPress.org theme directory then maybe you want to add theme support with the theme selectors you just found so your users don't have to follow the same process.
+If you are a developer submitting your WordPress theme to the WordPress.org theme directory, then you may want to add theme support for Auto Load Next Post. Using the theme selectors you just found you can add theme support so your users don't have to follow the same process.
 
-Simply use `add_theme_support` function for Auto Load Next Post as shown in the example below and the next time your theme is used with Auto Load Next Post, the theme selectors will be set automatically.
+Simply use the `add_theme_support` function and the next time your theme is used with Auto Load Next Post installed, the theme selectors will be set automatically for that user upon activation.
 
-[add_theme_support](https://developer.wordpress.org/reference/functions/add_theme_support/) must be called in your theme's functions.php file to work and it must be hooked to `after_setup_theme`. See example below.
+The [add_theme_support](https://developer.wordpress.org/reference/functions/add_theme_support/) function must be called in your theme's `functions.php` file to work and it must be hooked to `after_setup_theme`. See example below.
 
 ```php
 /**
