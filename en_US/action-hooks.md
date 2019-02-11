@@ -8,7 +8,7 @@ Within the default repeater template, many have been provided for the query loop
 
 To show these action hooks in action, a [demonstration tool](https://github.com/autoloadnextpost/alnp-action-hooks-demonstration) is available to show the action hooks as you scroll down to view your posts.
 
-> ℹ️ Note: Auto Load Next Post requires to be setup already for the action hook tool to be of use.
+> ✏️ Note: Replace `$post_format` with one of the supported formats. See [post formats](https://codex.wordpress.org/Post_Formats) for a list of supported formats that you can use to display content for a specific post format.
 
 
 ### The Loop
@@ -17,6 +17,15 @@ To show these action hooks in action, a [demonstration tool](https://github.com/
 
 ```php
 add_action( 'alnp_load_before_loop', 'your_function_name' );
+```
+
+An example to use this action hook would be to apply a shortcode for maybe a email newsletter sign up form. This would then show at the beginning of any additional content that loads.
+
+```php
+function before_loop_newsletter_signup_form() {
+  echo do_shortcode('[mailchimp_signup]');
+}
+add_action( 'alnp_load_before_loop', 'before_loop_newsletter_signup_form' );
 ```
 
 #### Action: `alnp_load_after_loop`
@@ -55,7 +64,7 @@ Similar to the action hook above only this action hook is specific to a single p
 add_action( 'alnp_load_after_content_post_format_' . $post_format, 'your_function_name' );
 ```
 
-> Replace `$post_format` with one of the supported formats. See [post formats](https://codex.wordpress.org/Post_Formats) for a list of supported formats that you can use to display content for a specific post format.
+
 
 An example of adding content to a specific post format with one of the action hooks.
 
@@ -65,7 +74,7 @@ An example of adding content to a specific post format with one of the action ho
 function your_function_name(){
   echo 'This video is awesome. Share it with your friends!';
 }
-add_action( 'alnp_load_after_content_type_video', 'your_function_name' );
+add_action( 'alnp_load_after_content_post_format_video', 'your_function_name' );
 ```
 
 So whenever a post that is formatted for a video, after the content it will display whatever you want it to display.
