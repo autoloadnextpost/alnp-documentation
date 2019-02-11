@@ -8,7 +8,7 @@
 
 > ℹ️ Please note: The documentation here is a working progress where it can be refined and tested with users before applying the changes to the public documentation at autoloadnextpost.com/documentation/
 
-[![Auto Load Next Post, Infinite post scroll for WordPress](https://ps.w.org/auto-load-next-post/assets/banner-772x250.png)](https://autoloadnextpost.com?utm_medium=auto-load-next-post-documentation-github&utm_source=readme&utm_campaign=readme&utm_content=banner)
+<p style="text-align:center;"><a href="https://autoloadnextpost.com?utm_medium=auto-load-next-post-documentation-github&utm_source=readme&utm_campaign=readme&utm_content=banner" target="_blank"><img src="https://ps.w.org/auto-load-next-post/assets/banner-772x250.png" alt="Auto Load Next Post, Infinite post scroll for WordPress"></a></p>
 
 
 ## 👋 Welcome
