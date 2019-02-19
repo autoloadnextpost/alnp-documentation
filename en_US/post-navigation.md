@@ -12,7 +12,7 @@ Once you have a post navigation applied, Auto Load Next Post will be able to loa
 
 ### My theme has a post navigation
 
-Great. By code standards a post navigation should have the `rel` attribute applied to both the previous and next post link. However, some themes dont use the standard post navigation or at least extend the standard post navigation and provide their own post navigation to provide the style they wish to present. Alot of these types of themes tend to forget about apply the required attribute to the links or enter a different attribute altogether.
+Great. By code standards a post navigation should have the `rel` attribute applied to both the previous and next post link. However, some themes dont use the standard post navigation or at least extend the standard post navigation and provide their own post navigation to provide the style they wish to present. Alot of these types of themes tend to forget about applying the required attribute to the links or enter a different attribute altogether.
 
 Auto Load Next Post looks for two possible types of `rel` attributes applied to the previous post link, `rel="prev"` and `rel="previous"`.
 
@@ -40,7 +40,6 @@ Another would be to find the source of the post navigation function within your 
 
 Either solution applied will then allow Auto Load Next Post to function.
 
-### Im seeing two post navigations, why?
 
 ---
 
