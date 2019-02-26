@@ -41,20 +41,9 @@ You will most likely find the hot key to be **F12** on your keyboard. You will t
 
 ![Developer tool](https://raw.githubusercontent.com/autoloadnextpost/alnp-documentation/master/assets/developer-tools-firefox.jpg)
 
+If you are using Safari 10 or above on Mac, ensure that the **Develop** menu is in the menu bar. If not, enable it under `Safari > Preferences > Advanced`. Then under **Develop**, click on **Show Web Inspector**.
 
-### Theme customizer
-
-To make things easier between switching from viewing the settings page and a single post while using the developer tool to inspect your theme selectors. You can find the same settings in [the WordPress theme customizer](https://raw.githubusercontent.com/autoloadnextpost/alnp-documentation/master/assets/theme-customizer-theme-selectors.png) under the Auto Load Next Post section.
-
-Once you have opened the WordPress theme customizer, view any single post or view your blog archive (or the frontpage depending if you have set a frontpage and blog archive from the **Reading** settings in WordPress), then the Auto Load Next Post section will appear. Enter it and the plugin settings will show. From there you can enter the theme selectors the same way as the settings page and save them by pressing the **Publish** button.
-
-
-### Inspecting your theme
-
-> ℹ️ Do not forget to have the developer tools open when viewing a single post on your website.
-
-
-#### Content Container
+#### Content container
 
 Now to first find the content container of your theme. For example you may be looking for `<main class=“site-main”>`.
 
@@ -85,6 +74,15 @@ After that, view any single post and scroll down to see if the next post loads. 
 For more information, visit the [repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md) documentation.
 
 <!-- link "apply one" to the post navigation documentation -->
+
+
+### Use the theme customizer
+
+To make things easier between switching from viewing the settings page and a single post while using the developer tool to inspect your theme selectors. You can find the same settings in [the WordPress theme customizer](https://raw.githubusercontent.com/autoloadnextpost/alnp-documentation/master/assets/theme-customizer-theme-selectors.png) under the Auto Load Next Post section.
+
+Once you have opened the WordPress theme customizer, view any single post or view your blog archive (or the frontpage depending if you have set a frontpage and blog archive from the **Reading** settings in WordPress), then the Auto Load Next Post section will appear. Enter it and the plugin settings will show. From there you can enter the theme selectors the same way as the settings page and save them by pressing the **Publish** button.
+
+> ℹ️ Do not forget to have the developer tools open when viewing a single post to help you find your theme selectors.
 
 
 ## For theme developers
