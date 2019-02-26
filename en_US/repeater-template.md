@@ -4,9 +4,13 @@
 
 Auto Load Next Post uses a templating system referred to as a **Repeater Template** to manage the front-end display of your Ajax loaded content.
 
-The [repeater template](https://github.com/autoloadnextpost/auto-load-next-post/blob/master/template/content-alnp.php) will execute over and over to display post content within ALNP loop. This template will look for and load the appropiate template files according to your theme using core WordPress functions such as `locate_template()` and `get_template_part()` to load in the content.
+The [repeater template](https://github.com/autoloadnextpost/auto-load-next-post/blob/master/template/content-alnp.php) is a file that will execute over and over to display post content within ALNP loop. This template will look for and load the appropiate template files according to your theme using core WordPress functions such as `locate_template()` and `get_template_part()` to load in the content.
 
-Should the default repeater template not be suited to your theme structure, it can be overridden by copying it from the plugin directory `wp-content/plugins/auto-load-next-post/template/content-alnp.php` to `wp-content/themes/yourtheme/auto-load-next-post/content-alnp.php`
+However, should the default repeater template not be suited to your theme structure, it can be overridden by copying it from the plugin directory `wp-content/plugins/auto-load-next-post/template/content-alnp.php` to `wp-content/themes/yourtheme/auto-load-next-post/content-alnp.php`
+
+1. Create an `auto-load-next-post` directory in the root of your current theme folder.
+2. Copy and paste `content-alnp.php` in the newly created `auto-load-next-post` directory.
+3. Update the new `content-alnp.php` file however you wish. It will not be overwritten when the plugin is updated.
 
 When making the modifications to your repeater template file, make sure it matches your theme structure and loads the content for a single post. The same if you were supporting a child-theme.
 
