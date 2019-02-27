@@ -6,7 +6,7 @@
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/r/auto-load-next-post.svg?style=flat-square)](https://wordpress.org/support/view/plugin-reviews/auto-load-next-post?filter=5)
 [![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/auto-load-next-post.svg?style=flat)](https://wordpress.org/plugins/auto-load-next-post/)
 
-> ℹ️ Please note: The documentation here is a working progress where it can be refined and tested with users before applying the changes to the public documentation at autoloadnextpost.com/documentation/
+> ℹ️ Please note: The documentation here is a working progress where it can be refined and tested with users
 
 <p align="center">
     <a href="https://autoloadnextpost.com?utm_medium=auto-load-next-post-documentation-github&utm_source=readme&utm_campaign=readme&utm_content=banner" target="_blank"><img src="https://ps.w.org/auto-load-next-post/assets/banner-772x250.png" alt="Auto Load Next Post, Infinite post scroll for WordPress"></a>
