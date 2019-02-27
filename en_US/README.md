@@ -21,5 +21,5 @@ Refer to the manual to see the different sections available as well as helpful r
 * * [Action hooks](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/action-hooks.md)
 * * [Filter hooks](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/filter-hooks.md)
 * * [Conditional functions](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/conditional-functions.md)
-* * [JavaScript triggers](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/javascript-trriggers.md)
+* * [JavaScript triggers](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/javascript-triggers.md)
 * * [Testing](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/testing.md)
