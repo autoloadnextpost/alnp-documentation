@@ -1,12 +1,18 @@
 # Auto Load Next Post Documentation
 
-## Beta Testing
+## Testing
+
+Testing or debugging is a common thing for developers but users may have very little knowledge on how to go about doing so. This guide will help you figure out how to test with Auto Load Next Post.
+
+
+### Beta Testing
 
 First and foremost, I want to say thank you if you are beta testing or interested in beta testing future releases. Your feedback is important to making Auto Load Next Post better.
 
 You can download the beta tester [here](https://github.com/AutoLoadNextPost/alnp-beta-tester/releases). I would always recommend beta testing in a staging environment.
 
-## Debugging a White Screen or Error 500
+
+### Debugging a White Screen or Error 500
 
 If you find a white screen or error 500 that usually means something has triggered a PHP error, but errors are hidden on your server. To find out the cause of the error you have two choices:
 
@@ -19,7 +25,8 @@ Enabling `WP_DEBUG` involves editing your wp-config.php file and changing, or ad
 
 When this is done, a more useful error message should be shown. Most of the time this contains the name of the plugin and the line number causing the issue allowing you to act.
 
-## Debugging Javascript
+
+### Debugging JavaScript
 
 Debugging Javascript is also possible. If you want to read the console logs with the browsers developer tools you will need to enable `SCRIPT_DEBUG`.
 
