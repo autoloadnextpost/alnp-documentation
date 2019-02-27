@@ -2,7 +2,8 @@
 
 Welcome to the Auto Load Next Post documentation and help section.
 
-Refer to the manual to see the different sections available as well as helpful resources.
+Refer to the manual to see the different sections available as well as helpful resources to help you setup or customize Auto Load Next Post.
+
 
 ## The Manual
 
