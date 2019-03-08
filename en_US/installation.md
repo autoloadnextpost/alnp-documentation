@@ -10,7 +10,7 @@ In the search field type **Auto Load Next Post** and press 'Search Plugins'. Onc
 
 After activating the plugin you will be welcomed and told if the active theme already supports Auto Load Next Post out of the box or requires following the documentation.
 
-See [list of themes](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/supported-themes.md) that work out of the box.
+See [list of themes](https://github.com/autoloadnextpost/alnp-documentation/blob/master/supported-themes.md) that work out of the box.
 
 
 ### Manual Installation
@@ -24,4 +24,4 @@ The manual installation method involves downloading the plugin and uploading it 
 
 ---
 
-If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/AutoLoadNextPost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
+If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/autoloadnextpost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!

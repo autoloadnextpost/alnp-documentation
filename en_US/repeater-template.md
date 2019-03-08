@@ -14,10 +14,10 @@ However, should the default repeater template not be suited to your theme struct
 
 When making the modifications to your repeater template file, make sure it matches your theme structure and loads the content for a single post. The same if you were supporting a child-theme.
 
-Overriding the repeater template is not always required. You may find that just using the [alnp_template_location](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/filter-hooks.md#filter-alnp_template_location) filter is all that you need to support Auto Load Next Post in your theme.
+Overriding the repeater template is not always required. You may find that just using the [alnp_template_location](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/filter-hooks.md#filter-alnp_template_location) filter is all that you need to support Auto Load Next Post in your theme.
 
-In the default repeater template there are [action hooks](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/action-hooks.md) that can be used to display before and after the loop and content.
+In the default repeater template there are [action hooks](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/action-hooks.md) that can be used to display before and after the loop and content.
 
 ---
 
-If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/AutoLoadNextPost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
+If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/autoloadnextpost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!

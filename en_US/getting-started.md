@@ -2,6 +2,6 @@
 
 ## Getting Started
 
-* [Requirements](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/requirements.md)
-* [Installation](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/installation.md)
-* [Upgrading](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/upgrading.md)
+* [Requirements](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/requirements.md)
+* [Installation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/installation.md)
+* [Upgrading](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/upgrading.md)

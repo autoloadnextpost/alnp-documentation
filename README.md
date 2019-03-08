@@ -34,13 +34,13 @@ If you would like to help translate the documentation in another language then a
 
 | Language | Link |
 | -------- | ---- |
-| English (United States) | [View](https://github.com/AutoLoadNextPost/alnp-documentation/tree/master/en_US) |
+| English (United States) | [View](https://github.com/autoloadnextpost/alnp-documentation/tree/master/en_US) |
 <!--
-| French (France) | [View](https://github.com/AutoLoadNextPost/alnp-documentation/tree/master/fr_FR) |
-| German  | [View](https://github.com/AutoLoadNextPost/alnp-documentation/tree/master/de_DE) |
-| Italian  | [View](https://github.com/AutoLoadNextPost/alnp-documentation/tree/master/it_IT) |
-| Japanese  | [View](https://github.com/AutoLoadNextPost/alnp-documentation/tree/master/jp_JP) |
-| Spanish (Spain) | [View](https://github.com/AutoLoadNextPost/alnp-documentation/tree/master/es_ES) |
+| French (France) | [View](https://github.com/autoloadnextpost/alnp-documentation/tree/master/fr_FR) |
+| German  | [View](https://github.com/autoloadnextpost/alnp-documentation/tree/master/de_DE) |
+| Italian  | [View](https://github.com/autoloadnextpost/alnp-documentation/tree/master/it_IT) |
+| Japanese  | [View](https://github.com/autoloadnextpost/alnp-documentation/tree/master/jp_JP) |
+| Spanish (Spain) | [View](https://github.com/autoloadnextpost/alnp-documentation/tree/master/es_ES) |
 -->
 
 

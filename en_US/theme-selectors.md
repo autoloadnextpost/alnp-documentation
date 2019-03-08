@@ -63,7 +63,7 @@ This will be the first heading `<h1 class="entry-title">` but may be added diffe
 
 #### Post navigation
 
-Finally, the post navigation. Auto Load Next Post reads the post navigation once the user has reached or is near the end of the initial post to load the next post. This is a crucial step. Unfortunately there is no guarantee that your theme may have a post navigation on a single post. Should that be the case you will need to apply one.
+Finally, the post navigation. Auto Load Next Post reads the post navigation once the user has reached or is near the end of the initial post to load the next post. This is a crucial step. Unfortunately there is no guarantee that your theme may have a post navigation on a single post. Should that be the case you will need to [apply one](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md).
 
 > In the future, the post navigation selector will not be required as the next post will be identified via a database query. This will support themes that do not have a single post navigation on single posts.
 
@@ -113,4 +113,4 @@ add_action( 'after_setup_theme', 'add_alnp_theme_support' );
 
 ---
 
-If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/AutoLoadNextPost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
+If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/autoloadnextpost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!

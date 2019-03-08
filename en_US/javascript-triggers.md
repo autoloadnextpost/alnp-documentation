@@ -73,7 +73,7 @@ $('body').on( 'alnp-post-loaded', function( e, params ) {
 });
 ```
 
-[Other usage and examples are available](https://github.com/AutoLoadNextPost/alnp-documentation/blob/master/en_US/post-loaded-examples.md).
+[Other usage and examples are available](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-loaded-examples.md).
 
 ### Previous post
 
@@ -100,4 +100,4 @@ I created a [boilerplate](https://github.com/autoloadnextpost/alnp-js-boilerplat
 
 ---
 
-If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/AutoLoadNextPost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
+If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/autoloadnextpost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
