@@ -22,10 +22,12 @@ Once saved, view any single post with `alnp/` at the end to view the repeater te
 
 Just as the endpoint was changed for the Ajax request, the repeater template file name was also changed. If you have a custom repeater template file within your theme, make sure it is labelled to the new file name.
 
-Old file name: `content-partial.php`
+Old file name: `your-theme/auto-load-next-post/content-partial.php`
 
-New file name: `content-alnp.php`
+New file name: `your-theme/auto-load-next-post/content-alnp.php`
+
+If you don't find a repeater template file in your theme then you have nothing to worry about.
 
 ---
 
-If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/AutoLoadNextPost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
+If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/autoloadnextpost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
