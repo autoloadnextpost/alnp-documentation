@@ -4,9 +4,9 @@ This guide will help explain a little about content and structure.
 
 ## Content
 
-> Content info goes here!
+Auto Load Next Post is designed to display your content in the same style and design of the theme you have active. Unlike other infinite scrolling plugins, no additional CSS is applied.
 
-
+Your theme provides the templates and styling the plugin requires to display your content when loaded.
 
 ## Structure
 
@@ -24,7 +24,7 @@ Here are just a few of the folder locations used to manage templates, loops or p
 
 Auto Load Next Post by default will only look in the themes parent folder for the content files to load. Should the theme placed them elsewhere it is most likley they are in one of these directories above.
 
-Unfortunatley Auto Load Next Post does not automatically identify the location so you will need to [apply a filter](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/filter-hooks.md#filter-alnp_template_location) for Auto Load Next Post to look into the appropriate directory for the content file to be discovered and load.
+> ✏️ Note: Unfortunatley Auto Load Next Post does not automatically identify the location where the templates are located so you will need to [apply a filter](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/filter-hooks.md#filter-alnp_template_location) for Auto Load Next Post to look into the appropriate directory for the content file to be discovered and load.
 
 ---
 
