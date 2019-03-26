@@ -67,7 +67,7 @@ Once you have all your theme selectors entered in the settings page of Auto Load
 
 After that, view any single post and scroll down to see if the next post loads. If another post loads, then the setup was successful. If not and you are getting only parts or a constant loop of nothingness then the repeater template also needs to be adjusted.
 
-For more information, visit the [repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md) documentation.
+For more information, view the [repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md) guide.
 
 <!-- link "apply one" to the post navigation documentation -->
 
@@ -86,7 +86,8 @@ If you are a theme developer submitting your WordPress theme to the WordPress.or
 
 The next time your theme is installed/updated with Auto Load Next Post installed, the theme selectors will be set automatically for the theme upon activation.
 
-See [Add Theme Support](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/add-theme-support.md) for more details.
+For more information, view the [Add Theme Support](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/add-theme-support.md) guide.
+
 
 ---
 
