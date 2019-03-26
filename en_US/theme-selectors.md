@@ -80,32 +80,13 @@ Once you have opened the WordPress theme customizer, view any single post or vie
 
 > ℹ️ Do not forget to have the developer tools open when viewing a single post to help you find your theme selectors.
 
-
 ## For theme developers
 
-If you are a developer submitting your WordPress theme to the WordPress.org theme directory, then you may want to add theme support for Auto Load Next Post. Using the theme selectors you just found you can add theme support so your users don't have to follow the same process.
+If you are a theme developer submitting your WordPress theme to the WordPress.org theme directory, then you may want to [add theme support](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/add-theme-support.md) for Auto Load Next Post. Using the theme selectors you just found you can add theme support so your users don't have to follow the same process in finding them.
 
-Simply use the `add_theme_support` function and the next time your theme is used with Auto Load Next Post installed, the theme selectors will be set automatically for that user upon activation.
+The next time your theme is installed/updated with Auto Load Next Post installed, the theme selectors will be set automatically for the theme upon activation.
 
-The [add_theme_support](https://developer.wordpress.org/reference/functions/add_theme_support/) function must be called in your theme's `functions.php` file to work and it must be hooked to `after_setup_theme`. See example below.
-
-```php
-/**
- * Add theme support for Auto Load Next Post by setting the 
- * theme selectors to be applied once the theme is activated. 
- */
-function add_alnp_theme_support() {
-  add_theme_support( 'auto-load-next-post', array( 
-    'content_container' => 'main.site-main',
-    'title_selector' => 'h1.entry-title',
-    'navigation_container' => 'nav.post-navigation',
-    'comments_container' => 'div#comments',
-    'load_js_in_footer' => 'no',
-    'lock_js_in_footer' => 'no',
-  ) );
-}
-add_action( 'after_setup_theme', 'add_alnp_theme_support' );
-```
+See [Add Theme Support](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/add-theme-support.md) for more details.
 
 ---
 
