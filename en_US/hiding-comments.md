@@ -9,7 +9,7 @@ To hide the comments:
 1. Go to **Settings -> Auto Load Next Post** screen in the admin panel.
 2. Make sure the **Comments Container** selector is set.
 3. Go to the **Misc** section.
-4. Enable remove comments.
+4. Enable **Remove Comments**.
 5. Press the **Save settings** button.
 
 Now when you view any post the comments are no longer shown making the content load quicker and focus your readers on your post content.
