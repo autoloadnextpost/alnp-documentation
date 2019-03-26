@@ -61,7 +61,7 @@ This will be the first heading `<h1 class="entry-title">` but may be added diffe
 
 Finally, the post navigation. Auto Load Next Post reads the post navigation once the user has reached or is near the end of the initial post to load the next post. This is a crucial step. Unfortunately there is no guarantee that your theme may have a post navigation on a single post. Should that be the case you will need to [apply one](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md).
 
-> In the future, the post navigation selector will not be required as the next post will be identified via a database query. This will support themes that do not have a single post navigation on single posts.
+> ⏲ In the future, the post navigation selector will not be required as the next post will be identified via a database query. This will support themes that do not have a single post navigation on single posts.
 
 Once you have all your theme selectors entered in the settings page of Auto Load Next Post, press **Save Changes**.
 
@@ -69,8 +69,11 @@ After that, view any single post and scroll down to see if the next post loads. 
 
 For more information, view the [repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md) guide.
 
-<!-- link "apply one" to the post navigation documentation -->
+### Comments container
 
+While removing the comments is optional, we still need the theme selector to identify the comments container. If **Remove Comments** is enabled, both the initial post and the posts that load after will have any comments removed.
+
+> ✏️ Note: This only removes the comments in the DOM so no comments are actually removed/deleted or erased. They are simply just not shown any longer which also helps reduce the browser memory so there is room for your content to load instead.
 
 ### Use the theme customizer
 
@@ -78,7 +81,7 @@ To make things easier between switching from viewing the settings page and a sin
 
 Once you have opened the WordPress theme customizer, view any single post or view your blog archive (or the frontpage depending if you have set a frontpage and blog archive from the **Reading** settings in WordPress), then the Auto Load Next Post section will appear. Enter it and the plugin settings will show. From there you can enter the theme selectors the same way as the settings page and save them by pressing the **Publish** button.
 
-> ℹ️ Do not forget to have the developer tools open when viewing a single post to help you find your theme selectors.
+> ✏️ Note: Do **NOT** forget to have the developer tools open when viewing a single post to help you find your theme selectors.
 
 ## For theme developers
 
