@@ -8,11 +8,13 @@ The `alnp-post-loaded` callback is public JavaScript function dispatched after e
 
 The following callback examples are used to initiate 3rd party scripts after successful Ajax requests.
 
-Developers: You can copy and paste these into your theme so your theme supports these plugins with Auto Load Next Post.
+> Developers: You can copy and paste these into your theme so your theme supports these plugins with Auto Load Next Post.
 
 <!--Users: Go to the extension section under Auto Load Next Post settings page to install the support you require.-->
 
-#### Easy Fancybox - https://wordpress.org/plugins/easy-fancybox/
+#### Easy Fancybox
+
+Source: [https://wordpress.org/plugins/easy-fancybox/](https://wordpress.org/plugins/easy-fancybox/)
 
 You can either use this code snippet or use the events section via the Auto Load Next Post settings to trigger Easy FancyBox.
 
@@ -24,7 +26,9 @@ $(function() {
 })(jQuery);
 ```
 
-#### AddToAny - https://wordpress.org/plugins/add-to-any/
+#### AddToAny
+
+Source: [https://wordpress.org/plugins/add-to-any/](https://wordpress.org/plugins/add-to-any/)
 
 ```js
 $(function() {
@@ -36,19 +40,23 @@ $(function() {
 })(jQuery);
 ```
 
-#### Addthis - https://wordpress.org/plugins/addthis/
+#### Addthis
+
+Source: [https://wordpress.org/plugins/addthis/](https://wordpress.org/plugins/addthis/)
 
 ```js
 $(function() {
   $('body').on( 'alnp-post-loaded', function( e, params ) {
     if ( typeof addthis !== 'undefined' ) {
-      addthis.layers.refresh(); 
+      addthis.layers.refresh();
     }
   });
 })(jQuery);
 ```
 
-#### ShareThis - https://www.sharethis.com/
+#### ShareThis
+
+Source: [https://www.sharethis.com/](https://www.sharethis.com/)
 
 ```js
 $(function() {
@@ -60,7 +68,7 @@ $(function() {
 })(jQuery);
 ```
 
-#### Facebook Comments, Like Button, Share etc.
+#### Facebook Comments, Like Button, Share etc
 
 ```js
 $(function() {
@@ -71,6 +79,8 @@ $(function() {
 ```
 
 #### Jetpack - Tiled Galleries
+
+Source: [https://jetpack.com/](https://jetpack.com/)
 
 ```js
 $(function() {
@@ -83,7 +93,7 @@ $(function() {
 
 ### Other 3rd party plugins
 
-> These plugins have not yet been tested with Auto Load Next Post.
+> ✏️ Note: These plugins have not yet been tested with Auto Load Next Post.
 
 * [MetaSlider](https://wordpress.org/plugins/ml-slider/)
 * [Easy SwipeBox](https://wordpress.org/plugins/easy-swipebox/)

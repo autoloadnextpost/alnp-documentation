@@ -20,8 +20,7 @@ When Auto Load Next Post is activated, default theme selectors are set for you. 
 
 I recommend looking at the [CSS selectors reference](https://www.w3schools.com/cssref/css_selectors.asp) at w3schools.com if you are not familar with CSS to help you.
 
-
-#### Default Theme Selectors
+### Default Theme Selectors
 
 By default we set each theme selector with the element followed by a `.class` or `#id`.
 
@@ -31,7 +30,6 @@ By default we set each theme selector with the element followed by a `.class` or
 | Post Title | `h1.entry-title` |
 | Post Navigation | `nav.post-navigation` |
 | Comments Container | `div#comments` |
-
 
 ### How to find your theme selectors
 
@@ -53,13 +51,11 @@ Once you have found the content container, go to the settings page and place the
 
 > If the element has more than one class applied then only enter the first class. This is 99% the main class. If there is not a class but an ID then simply enter the element name followed by the ID name instead.
 
-
 #### Post title
 
 Next will be the post title. This one in particular I find does not change from the many themes that I have looked at so you may find that you do not need to change this one.
 
 This will be the first heading `<h1 class="entry-title">` but may be added differently with a featured image depending on how the theme is developed.
-
 
 #### Post navigation
 

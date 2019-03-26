@@ -18,9 +18,9 @@ Now when you view any post the comments are no longer shown making the content l
 
 Yes. To view comments for a single post or to respond to a post, simply view that post with either hashtag at the end of the post URL.
 
-View comments – https://yourblogdomain.com/blog/your-post-slug/#comments
+View comments – `https://yourblogdomain.com/blog/your-post-slug/#comments`
 
-Post comment response – https://yourblogdomain.com/blog/your-post-slug/#respond
+Post comment response – `https://yourblogdomain.com/blog/your-post-slug/#respond`
 
 ---
 

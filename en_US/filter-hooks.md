@@ -16,7 +16,6 @@ If you have overriden the repeater template in your theme or plugin but want to 
 
 In this example, the repeater template is located at `templates/alnp/content-alnp.php` within a theme folder. Simply apply the filter like so to your `functions.php` file of your theme (_if you are not the original theme developer then this would be preferable if added to a child-theme_) and Auto Load Next Post will load the repeater template located there.
 
-
 ```php
 function my_repeater_template() {
     return 'templates/alnp/content-alnp.php';

@@ -4,9 +4,9 @@
 
 If you had previously installed Auto Load Next Post before with a version prior to 1.5 then there are two things that you may need to address. Both are really simple and quick to do.
 
-> Quick Note: Auto Load Next Post works by registering a unique endpoint to any post type and is used to filter the repeater template that is called with an Ajax request.
+> ✏️ Note: Auto Load Next Post works by registering a unique endpoint to any post type and is used to filter the repeater template that is called with an Ajax request.
 
-#### 404 on Ajax Request
+### 404 on Ajax Request
 
 In the early versions of Auto Load Next Post the endpoint was not distinct and could have caused a compatibility issue with other plugins that may use the same endpoint so I made a change in version 1.5.
 
@@ -18,7 +18,7 @@ If you having been experiencing a 404 on Ajax requests with the new endpoint the
 
 Once saved, view any single post with `alnp/` at the end to view the repeater template load.
 
-#### Renaming the repeater template
+### Renaming the repeater template
 
 Just as the endpoint was changed for the Ajax request, the repeater template file name was also changed. If you have a custom repeater template file within your theme, make sure it is labelled to the new file name.
 

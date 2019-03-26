@@ -10,7 +10,7 @@ Should the plugin only run if the JavaScript is set in the footer, you can force
 
 Copy and paste the code snippet below to your theme's `functions.php` to add support and it must be hooked to `after_setup_theme`.
 
-> Note: Don't forget to change the theme selectors to match your theme selectors that you have used when developing your theme.
+> ✏️ Note: Don't forget to change the theme selectors to match your theme selectors that you have used when developing your theme.
 
 ```php
 /**

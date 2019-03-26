@@ -6,8 +6,7 @@ JavaScript triggers can come in handy when you need something to happen a certai
 
 If you are wanting to trigger a 3rd party script then you may find the **Events** section under Auto Load Next Post settings page useful.
 
-> Note: Not all 3rd party scripts trigger the same way.
-
+> ✏️ Note: Not all 3rd party scripts trigger the same way.
 
 ### Entering a post
 
@@ -85,8 +84,7 @@ $('body').on( 'alnp-previous-post', function( e, previous_post ) {
 });
 ```
 
-> Note: Your JavaScript triggers must be loaded after Auto Load Next Post in order to trigger these callbacks.
-
+> ✏️ Note: Your JavaScript triggers must be loaded after Auto Load Next Post in order to trigger these callbacks.
 
 #### Are you looking for examples?
 

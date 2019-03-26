@@ -4,7 +4,6 @@
 
 If you are facing an issue with Auto Load Next Post then this guide may help you understand why and how it can be fixed.
 
-
 ### Loads the whole page and not just the content
 
 This is most likley because of a permalink issue. Either Auto Load Next Post did not register the custom endpoint it requires or your permalink structure is not friendly.
@@ -15,11 +14,9 @@ This causes the custom endpoint to redirect to the original post permalink while
 
 It's important that you have a clean friendly permalink structure so Auto Load Next Post can work it's magic.
 
-
 ### Getting an error 404 when Ajax makes a request
 
 Most likley this is caused because you previously had an older version and have now updated to the latest version. This is easly fixed. [See the upgrade guide for more](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/upgrading.md#404-on-ajax-request).
-
 
 ---
 
