@@ -32,7 +32,7 @@ $('body').on( 'alnp-leave', function( e, divider ) {
 
 `alnp-post-changed` is triggered when the viewer is reading another post.
 
-An example of using this trigger would be to track other analytics of your choosing such as [Facebook pixels](https://wordpress.org/plugins/alnp-facebook-pixel-tracking/). 
+An example of using this trigger would be to track other analytics of your choosing such as [Facebook pixels](https://wordpress.org/plugins/alnp-facebook-pixel-tracking/).
 
 ```javascript
 $('body').on( 'alnp-post-changed', function( e, this_title, this_url, this_post_id, post_count, stop_reading, initial_post ) {
@@ -90,11 +90,9 @@ $('body').on( 'alnp-previous-post', function( e, previous_post ) {
 
 You're in luck as I also have a [code snippet library](https://github.com/AutoLoadNextPost/alnp-code-snippet-library) which I am compiling a list of examples in use by Auto Load Next Post users.
 
-
 ### Javascript boilerplate
 
-I created a [boilerplate](https://github.com/autoloadnextpost/alnp-js-boilerplate) for the purpose of adding your own callbacks via a plugin. All that you have to do is edit the [Javascript file](https://github.com/autoloadnextpost/alnp-js-boilerplate/blob/master/assets/js/alnp-js-boilerplate.js) and customize the trigger you wish to apply your callback to.
-
+A [boilerplate](https://github.com/autoloadnextpost/alnp-js-boilerplate) for the purpose of adding your own callbacks via a plugin is available. All that you have to do is edit the [Javascript file](https://github.com/autoloadnextpost/alnp-js-boilerplate/blob/master/assets/js/alnp-js-boilerplate.js) and customize the trigger you wish to apply your callback to.
 
 ---
 
