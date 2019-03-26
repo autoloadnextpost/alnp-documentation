@@ -22,7 +22,7 @@ Here are just a few of the folder locations used to manage templates, loops or p
 - `partials/`
 - `loop-templates/`
 
-Auto Load Next Post by default will only look in the themes parent folder for the content files to load. Should the theme have placed them elsewhere it is most likley they are in one of these directories above.
+Auto Load Next Post by default will only look in the themes parent folder for the content files to load. Should the theme placed them elsewhere it is most likley they are in one of these directories above.
 
 Unfortunatley Auto Load Next Post does not automatically identify the location so you will need to [apply a filter](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/filter-hooks.md#filter-alnp_template_location) for Auto Load Next Post to look into the appropriate directory for the content file to be discovered and load.
 
