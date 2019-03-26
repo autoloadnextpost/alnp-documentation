@@ -14,7 +14,7 @@ If not, then you will need to start with step 1, the [theme selectors](https://g
 
 Most themes may only need the first step to be completed and only need to change one or two of the theme selectors that are set by default.
 
-Steps 2 and 3 maybe required depending on your theme directory and template structure.
+Steps 2 and 3 maybe required depending on your theme directory and [template structure](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/content-and-structure.md#structure).
 
 1. [Theme selectors](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/theme-selectors.md)
 2. [Repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md)
