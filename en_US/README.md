@@ -1,8 +1,10 @@
 # Auto Load Next Post Documentation
 
-Welcome to the Auto Load Next Post documentation and help section.
-
 Refer to the manual to see the different sections available as well as helpful resources to help you setup or customize Auto Load Next Post.
+
+If you have any questions or concerns on any section of the documentation please [open a new issue](https://github.com/autoloadnextpost/alnp-documentation/issues/new) in this repository for it to be reviewed.
+
+Thank you. 😄
 
 ## The Manual
 
