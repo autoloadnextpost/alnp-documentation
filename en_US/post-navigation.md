@@ -56,7 +56,7 @@ remove_action( 'alnp_load_after_content', 'auto_load_next_post_navigation', 1, 1
 
 This is caused generally because there are two different post navigations. The post navigation the theme provides and the post navigation Auto Load Next Post inserts with the repeater template. Both do not match either due to using a different theme selector or because the post navigation that the theme provides is customized.
 
-To fix this you will need to make sure the post navigation matches from your theme so Auto Load Next Post recognizes it. First, you will need to [remove the post navigation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md#im-seeing-two-post-navigations-why) from the repeater template (as shown above) and then hook in the themes post navigation in place instead.
+To fix this you will need to make sure the post navigation matches from your theme so Auto Load Next Post recognizes it. First, you will need to check to see if there is a matching theme selector available. If not then it would be best to [remove the post navigation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md#im-seeing-two-post-navigations-why) from the repeater template (as shown above) and then hook in the themes post navigation in place instead.
 
 ```php
 add_action( 'alnp_load_after_content', 'your_theme_post_navigation', 1, 10 );
@@ -65,7 +65,7 @@ function your_theme_post_navigation() {
 }
 ```
 
-Once done, posts will load without issue.
+Once done, double check the post navigation theme selector matches and posts will load without issue.
 
 ---
 
