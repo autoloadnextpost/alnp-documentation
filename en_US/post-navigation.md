@@ -40,6 +40,18 @@ Another would be to find the source of the post navigation function within your 
 
 Either solution applied will then allow Auto Load Next Post to function.
 
+### Im seeing two post navigations, why?
+
+Auto Load Next Post inserts a post navigation for you within the [repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md). This is because themes that are well [structured](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/content-and-structure.md#structure) do not include them within the template loops.
+
+Should the theme you are developing or the theme you are using did add a post navigation to the template loops then it would be best to remove the post navigation Auto Load Next Post inserts.
+
+All you have to do to remove it is add this line to your `functions.php` file. Or if you prefer you can use a plugin like [My Custom Functions](https://wordpress.org/plugins/my-custom-functions/) to apply it without modifying your files.
+
+```php
+remove_action( 'alnp_load_after_content', 'auto_load_next_post_navigation', 1, 10 );
+```
+
 
 ---
 
