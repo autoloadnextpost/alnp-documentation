@@ -69,7 +69,7 @@ After that, view any single post and scroll down to see if the next post loads. 
 
 For more information, view the [repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md) guide.
 
-### Comments container
+#### Comments container
 
 While removing the comments is optional, we still need the theme selector to identify the comments container. If **Remove Comments** is enabled, both the initial post and the posts that load after will have any comments removed.
 
