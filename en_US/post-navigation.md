@@ -27,12 +27,12 @@ One way to apply the missing attribute to the post navigation is via JavaScript.
 ```javascript
 // Runs on page load, the initial post.
 jQuery( document ).ready( function() {
-	jQuery( 'div.previous-post' ).find( 'a' ).attr( 'rel', 'prev' );
+    jQuery( 'div.previous-post' ).find( 'a' ).attr( 'rel', 'prev' );
 });
 
 // Runs once a post has loaded.
 jQuery('body').on( 'alnp-post-loaded', function( e ) {
-	jQuery( 'div.previous-post' ).find( 'a' ).attr( 'rel', 'prev' );
+    jQuery( 'div.previous-post' ).find( 'a' ).attr( 'rel', 'prev' );
 });
 ```
 
@@ -52,6 +52,20 @@ All you have to do to remove it is add this line to your `functions.php` file. O
 remove_action( 'alnp_load_after_content', 'auto_load_next_post_navigation', 1, 10 );
 ```
 
+### Only one post loads after the initial post viewed. Why?
+
+This is caused generally because there are two different post navigations. The post navigation the theme provides and the post navigation Auto Load Next Post inserts with the repeater template. Both do not match either due to using a different theme selector or because the post navigation that the theme provides is customized.
+
+To fix this you will need to make sure the post navigation matches from your theme so Auto Load Next Post recognizes it. First, you will need to [remove the post navigation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md#im-seeing-two-post-navigations-why) from the repeater template (as shown above) and then hook in the themes post navigation in place instead.
+
+```php
+add_action( 'alnp_load_after_content', 'your_theme_post_navigation', 1, 10 );
+function your_theme_post_navigation() {
+    // Place your themes post navigation here.
+}
+```
+
+Once done, posts will load without issue.
 
 ---
 
