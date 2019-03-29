@@ -41,6 +41,8 @@ You will most likely find the hot key to be **F12** on your keyboard. You will t
 
 If you are using Safari 10 or above on Mac, ensure that the **Develop** menu is in the menu bar. If not, enable it under `Safari > Preferences > Advanced`. Then under **Develop**, click on **Show Web Inspector**.
 
+> ✏️ Note: A list of [possible theme selectors](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/possible-theme-selectors.md#possible-theme-selectors) has been put together should you need something to check against.
+
 #### Content container
 
 Now to first find the content container of your theme. For example you may be looking for `<main class=“site-main”>`.
