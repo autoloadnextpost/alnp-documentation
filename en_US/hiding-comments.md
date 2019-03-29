@@ -1,6 +1,6 @@
 # Auto Load Next Post Documentation
 
-## How to Hide Comments
+## Hide Comments
 
 Blogs with high activity tend to have a lot of comments per post and with Auto Load Next Post enabled that can increase the amount of scrolling involved for your readers for each post they read so it doesn’t make sense to leave them on. However, Auto Load Next Post allows you to hide the comments.
 
