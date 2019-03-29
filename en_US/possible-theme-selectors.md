@@ -14,10 +14,11 @@ If you find a theme selector that is not yet listed, please [open a new issue](h
 | -------- | ------ |
 | `main.site-main` | Yes |
 | `main#main` | Yes |
+| `main.post-wrap` | No |
 | `div#main` | No |
-| `div.site-content` | No |
+| `div.site-content` | Yes |
 | `div.content-container` | No |
-| `#content` | No |
+| `div#content` | Yes |
 
 ### Post Title
 
@@ -27,21 +28,28 @@ If you find a theme selector that is not yet listed, please [open a new issue](h
 | -------- | ------ |
 | `h1.entry-title` | Yes |
 | `h1.post-title` | No |
+| `h1.page-title` | No |
+| `h1.title-single` | No |
 
 ### Post Navigation
 
 | Selector | Commonly Used |
 | -------- | ------ |
 | `nav.post-navigation` | Yes |
+| `nav.navigation-post` | No |
 | `nav.navigation` | No |
 | `div.navigation` | No |
-| `nav#nav-below` | No |
+| `nav#nav-below` | Yes |
+| `#nav-single` | No |
+| `div.next-prev` | No |
+| `nav.prev-next-nav` | No |
 
 ### Comments Container
 
 | Selector | Commonly Used |
 | -------- | ------ |
 | `div#comments` | Yes |
+| `section#comments` | Yes |
 
 ---
 
