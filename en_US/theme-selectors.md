@@ -57,6 +57,8 @@ Next will be the post title. This one in particular I find does not change from 
 
 This will be the first heading `<h1 class="entry-title">` but may be added differently with a featured image depending on how the theme is developed.
 
+[View more about why the Post Title](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-title.md#post-title) is required.
+
 #### Post navigation
 
 Finally, the post navigation. Auto Load Next Post reads the post navigation once the user has reached or is near the end of the initial post to load the next post. This is a crucial step. Unfortunately there is no guarantee that your theme may have a post navigation on a single post. Should that be the case you will need to [apply one](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md).
@@ -91,6 +93,7 @@ The next time your theme is installed/updated with Auto Load Next Post installed
 
 For more information, view the [Add Theme Support](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/add-theme-support.md) guide.
 
+<!-- link words code snippet to the post navigation missing attributes code-->
 
 ---
 
