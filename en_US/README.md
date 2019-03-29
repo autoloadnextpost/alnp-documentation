@@ -8,24 +8,25 @@ Thank you. 😄
 
 ## The Manual
 
-* [Getting started](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/getting-started.md)
+* [Getting Started](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/getting-started.md)
 
-  * [Requirements](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/requirements.md)
-  * [Installation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/installation.md)
-  * [Upgrading](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/upgrading.md)
+  * [Requirements](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/requirements.md#requirements)
+  * [Installation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/installation.md#installation)
+  * [Upgrading](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/upgrading.md#upgrading-from-old-to-new)
 
-* [General overview](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/general-overview.md)
+* [General Overview](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/general-overview.md#general-overview)
 
-  * [Theme selectors](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/theme-selectors.md)
-  * [Repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md)
-  * [Post navigation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md)
-  * [Hiding comments](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/hiding-comments.md)
+  * [Theme Selectors](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/theme-selectors.md#theme-selectors)
+  * [Repeater Template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md#repeater-template)
+  * [Post Title](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-title.md#post-title)
+  * [Post Navigation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md#post-navigation)
+  * [Hiding Comments](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/hiding-comments.md#hide-comments)
 
-* [For developers](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/for-developers.md)
+* [For Developers](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/for-developers.md#for-developers)
 
-  * [Action Hooks](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/action-hooks.md)
-  * [Add Theme Support](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/add-theme-support.md)
-  * [Filter Hooks](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/filter-hooks.md)
+  * [Action Hooks](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/action-hooks.md#action-hooks)
+  * [Add Theme Support](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/add-theme-support.md#add-theme-support)
+  * [Filter Hooks](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/filter-hooks.md#filter-hooks)
   * [Conditional Functions](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/conditional-functions.md)
-  * [JavaScript Triggers](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/javascript-triggers.md)
-  * [Testing](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/testing.md)
+  * [JavaScript Triggers](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/javascript-triggers.md#javascript-triggers)
+  * [Testing](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/testing.md#testing)

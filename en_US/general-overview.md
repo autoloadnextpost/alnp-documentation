@@ -16,11 +16,10 @@ Most themes may only need the first step to be completed and only need to change
 
 Steps 2 and 3 maybe required depending on your theme directory and [template structure](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/content-and-structure.md#structure).
 
-1. [Theme selectors](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/theme-selectors.md)
-2. [Repeater template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md)
-3. [Post navigation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md)
-4. [Hiding comments](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/hiding-comments.md)
-
+1. [Theme Selectors](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/theme-selectors.md#theme-selectors)
+2. [Repeater Template](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/repeater-template.md#repeater-template)
+3. [Post Navigation](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/post-navigation.md#post-navigation)
+4. [Hiding Comments](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/hiding-comments.md#hide-comments)
 
 ---
 
