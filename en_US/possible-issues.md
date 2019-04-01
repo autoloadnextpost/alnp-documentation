@@ -18,6 +18,16 @@ It's important that you have a clean friendly permalink structure so Auto Load N
 
 Most likley this is caused because you previously had an older version and have now updated to the latest version. This is easly fixed. [See the upgrade guide for more](https://github.com/autoloadnextpost/alnp-documentation/blob/master/en_US/upgrading.md#404-on-ajax-request).
 
+### Not loading when using a Cache or Minification plugin?
+
+If this is happening then you need to exclude **Auto Load Next Post** from being cache, JS combined or minified with the Cache or Minification plugin you are using on your WordPress website.
+
+If you are able to do so then you need to exclude the following files:
+
+1. `wp-content/plugins/auto-load-next-post/assets/js/frontend/auto-load-next-post.min.js`
+2. `wp-content/plugins/auto-load-next-post/assets/js/libs/select2.min.js`
+3. `wp-content/plugins/auto-load-next-post/assets/js/libs/jquery.history.js`
+
 ---
 
 If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/autoloadnextpost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
