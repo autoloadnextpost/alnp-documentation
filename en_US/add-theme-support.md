@@ -65,6 +65,25 @@ function add_alnp_theme_support() {
 add_action( 'after_setup_theme', 'add_alnp_theme_support' );
 ```
 
+If you happen to be supporting Auto Load Next Post via a plugin, a simple additional variable simply allows the plugin to tell the user so via the plugin settings page. Simply add `plugin_support` as a variable and set it to `yes`.
+
+```php
+/**
+ * Adds theme support for Auto Load Next Post
+ * and notifies the user that the theme is supported via a plugin.
+ */
+function add_alnp_theme_support() {
+  add_theme_support( 'auto-load-next-post', array(
+    'content_container' => 'main.site-main',
+    'title_selector' => 'h1.entry-title',
+    'navigation_container' => 'nav.post-navigation',
+    'comments_container' => 'div#comments',
+    'plugin_support' => 'yes',
+  ) );
+}
+add_action( 'after_setup_theme', 'add_alnp_theme_support' );
+```
+
 ---
 
 If you have any issues with this guide, or the documentation that is linked throughout, please [open a new issue](https://github.com/autoloadnextpost/alnp-documentation/issues/new) in this repository for it to be reviewed. Thank you!
