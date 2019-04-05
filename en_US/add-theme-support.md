@@ -65,7 +65,7 @@ function add_alnp_theme_support() {
 add_action( 'after_setup_theme', 'add_alnp_theme_support' );
 ```
 
-If you happen to be supporting Auto Load Next Post via a plugin, a simple additional variable simply allows the plugin to tell the user so via the plugin settings page. Simply add `plugin_support` as a variable and set it to `yes`.
+If you happen to be supporting Auto Load Next Post via a plugin, a simple additional variable allows the plugin to tell the user so via the plugin settings page. Simply add `plugin_support` as a variable and set it to `yes`.
 
 ```php
 /**
